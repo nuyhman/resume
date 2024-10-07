@@ -46,6 +46,7 @@ jobs:
         with:
           # dist 디렉터리 업로드
           path: './dist'
+          name: github-pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
