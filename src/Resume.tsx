@@ -45,7 +45,7 @@ export default function Resume() {
           <a
             href='https://www.notion.so/f32c23972c46470e99959f401adb1b43?pvs=4'
             target='_blank'
-            className='text-blue'
+            className='text-blue opacity-80 hover:opacity-100'
           >
             업무 파악과 개선을 동시에 이루어낸 경험
           </a>
@@ -56,10 +56,10 @@ export default function Resume() {
           <a
             href='https://nuyhman.github.io/autumatically-includes-commit-messages/'
             target='_blank'
-            className='text-blue after:content-["↗"] after:text-sm'
+            className='text-blue opacity-80 hover:opacity-100'
           >
             반복 작업을 해소하여 팀의 리소스를 개선한 경험
-          </a>{' '}
+          </a>
           이 있습니다.
         </p>
       </section>
