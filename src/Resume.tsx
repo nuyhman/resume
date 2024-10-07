@@ -10,6 +10,7 @@ export default function Resume() {
         <div className='inline-flex items-center gap-4 text-sm text-gray'>
           <a
             href='http://github.com/nuyhman'
+            target='_blank'
             className='flex items-center hover:text-blue'
           >
             <Github size='16' className='mr-1' />
@@ -17,6 +18,7 @@ export default function Resume() {
           </a>
           <a
             href='https://nuyhman.github.io/'
+            target='_blank'
             className='flex items-center hover:text-blue'
           >
             <Globe className='w-4 h-4 mr-1' />
@@ -507,6 +509,7 @@ export default function Resume() {
             <h3 className='text-lg font-semibold'>React Spotify Player</h3>
             <a
               href='https://www.npmjs.com/package/@nuyhman/react-spotify-player'
+              target='_blank'
               className='flex gap-1 items-center text-gray text-sm hover:text-blue'
             >
               <img
