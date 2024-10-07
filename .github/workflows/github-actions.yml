@@ -34,15 +34,19 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          # cache: 'npm'
       - name: Install dependencies
         run: npm ci
       - name: Build
         run: npm run build
+
+      - name: Verify build output
+        run: ls -al ./dist
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v2
         with:
           # dist 디렉터리 업로드
           path: './dist'
