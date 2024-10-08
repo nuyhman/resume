@@ -1,4 +1,4 @@
-import { Mail, Github, Globe, Terminal, FolderSearch } from 'lucide-react';
+import { Terminal, FolderSearch } from 'lucide-react';
 
 export default function Resume() {
   return (
@@ -7,13 +7,18 @@ export default function Resume() {
         <h1 className='text-4xl font-extrabold mb-2'>
           김남현 <small className='font-bold'>| FE Developer</small>
         </h1>
-        <div className='inline-flex items-center gap-4 text-sm text-gray'>
+        <div className='inline-flex items-center gap-4 text-sm'>
           <a
             href='http://github.com/nuyhman'
             target='_blank'
             className='flex items-center hover:text-blue'
           >
-            <Github size='16' className='mr-1' />
+            {/* <Github size='16' className='mr-1' /> */}
+            <img
+              src='/resume/github.svg'
+              alt='github logo'
+              className='w-4 h-4 mr-1'
+            />
             GitHub
           </a>
           <a
@@ -21,14 +26,24 @@ export default function Resume() {
             target='_blank'
             className='flex items-center hover:text-blue'
           >
-            <Globe className='w-4 h-4 mr-1' />
+            {/* <Globe className='w-4 h-4 mr-1 text-black' /> */}
+            <img
+              src='/resume/favicon.svg'
+              alt='blog logo'
+              className='w-4 h-4 mr-1'
+            />
             Blog
           </a>
           <a
             href='mailto:nhpunch@email.com'
             className='flex items-center hover:text-blue'
           >
-            <Mail className='w-4 h-4 mr-1' />
+            {/* <Mail className='w-4 h-4 mr-1' /> */}
+            <img
+              src='/resume/gmail.svg'
+              alt='gmail logo'
+              className='w-4 h-4 mr-1'
+            />
             nhpunch@email.com
           </a>
         </div>
