@@ -13,7 +13,6 @@ export default function Resume() {
             target='_blank'
             className='flex items-center hover:text-blue'
           >
-            {/* <Github size='16' className='mr-1' /> */}
             <img
               src='/resume/github.svg'
               alt='github logo'
@@ -26,7 +25,6 @@ export default function Resume() {
             target='_blank'
             className='flex items-center hover:text-blue'
           >
-            {/* <Globe className='w-4 h-4 mr-1 text-black' /> */}
             <img
               src='/resume/favicon.svg'
               alt='blog logo'
@@ -35,16 +33,15 @@ export default function Resume() {
             Blog
           </a>
           <a
-            href='mailto:nhpunch@email.com'
+            href='mailto:nhpunch@gmail.com'
             className='flex items-center hover:text-blue'
           >
-            {/* <Mail className='w-4 h-4 mr-1' /> */}
             <img
               src='/resume/gmail.svg'
               alt='gmail logo'
               className='w-4 h-4 mr-1'
             />
-            nhpunch@email.com
+            nhpunch@gmail.com
           </a>
         </div>
       </header>
@@ -100,6 +97,7 @@ export default function Resume() {
         </div>
       </section>
 
+      {/* Work Experience */}
       <section className='mb-12'>
         <h2 className='text-3xl font-bold my-8'>
           Work Experience<span className='text-blue'>.</span>
